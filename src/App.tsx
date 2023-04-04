@@ -1,11 +1,13 @@
 import React from 'react';
 import Avatar from './components/Avatar/Avatar';
+import Title from './components/Title/Title';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Title title="Name Surname" />
       <Avatar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
